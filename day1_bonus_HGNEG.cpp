@@ -1,4 +1,5 @@
 /**
+   PROBLEM LINK: https://www.codechef.com/problems/HGNEG
    The problem says, in a city Humans and Ghouls have houses, but to control the groups there is a rule that no Same species house should be connected i.e Human House can't be connected with another Human home, same with GHOULS
    This configuration will create bipartite graph(Graph in which nodes of one group is only connected with nodes of another gorup)
    Image: https://en.wikipedia.org/wiki/Bipartite_graph#/media/File:Simple-bipartite-graph.svg
