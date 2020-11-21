@@ -13,11 +13,11 @@ int main() {
   int t;
   cin >> t;
   while(t --) {
-    int x, y, a, b;
-    cin >> x >> y >> a >> b;
+    int x, y, x1, y1;
+    cin >> x >> y >> x1>> y1;
     int a = 0;
-    if(x != a && y != b) a += 2;
-    a += abs(a - x) + abs(b - y);
+    if(x != x1 && y != y1) a += 2;
+    a += abs(x1 - x) + abs(y1 - y);
     cout <<  a << endl;
   }
 }
